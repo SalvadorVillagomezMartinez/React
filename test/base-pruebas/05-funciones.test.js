@@ -27,7 +27,6 @@ describe('Pruebas en 05-funciones',()=>{
         }
         // 2. estimulo
        const user = getUsuarioActivo('Max Verstappen');
-       console.log(user)
        
         //3. Observar el comportamiento ... esperado
         expect(testUser).toEqual(user)
