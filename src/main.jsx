@@ -5,9 +5,6 @@ import './styles.css'
 
 ReactDom.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-    
-        <GitExpertApp>
-        </GitExpertApp>
-    
+        <GitExpertApp></GitExpertApp>
     </React.StrictMode>
 )
